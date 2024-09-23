@@ -1,0 +1,116 @@
+@media screen and (max-width:576px) {
+    nav {
+        max-width: 90vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-title{
+        width: 100%;
+        text-align: center;
+    }
+    .navigation-pages {
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .navigation-pages a{
+        font-size: 16px;
+    }
+    .navigation-pages>ul {
+    gap: 10px;
+    }
+    /* banner section */
+    .banner-section {
+        max-width: 90vw;
+        margin: 20px auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .banner-img {
+        background-size: cover;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+    }
+    .banner-img img{
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+    }
+    .banner-content, .banner-content h2, .banner-content p{
+        text-align: center;
+    }
+    /* logos section */
+    .logos-section{
+        width: 80vw;
+        margin: 20px auto;
+        flex-wrap: wrap;
+        gap: 4vw;
+    }
+
+    /* grid related style */
+
+    .card-section {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .card {
+        width: 100%;
+        padding: 17px 15px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+        background: rgb(255, 255, 255);
+        text-align: left;
+    }
+    
+}
+
+/* for medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav {
+        max-width: 90vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-title{
+        width: 100%;
+        text-align: center;
+    }
+    .navigation-pages {
+        width: 100%;
+        padding: 10px 20px;
+    }
+    /* banner section */
+    .banner-section {
+        max-width: 90vw;
+        margin: 20px auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .banner-img {
+        background-size: cover;
+        align-items: center;
+        width: 500px;
+        height: 500px;
+    }
+    .banner-img img{
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+    }
+    .banner-content, .banner-content h2, .banner-content p{
+        text-align: center;
+    }
+
+    /* logos section */
+    .logos-section{
+        width: 80vw;
+        margin: 20px auto;
+        flex-wrap: wrap;
+        gap: 4vw;
+    }
+}

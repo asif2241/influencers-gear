@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* nav style start here */
+nav {
+    max-width: 80vw;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: rgb(58, 58, 58);
+    width: 50%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.navigation-pages {
+    width: 40%;
+}
+
+.navigation-pages>ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.navigation-pages a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* banner section related styles start here */
+.banner-section {
+    max-width: 80vw;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.banner-content h2 {
+    color: rgb(58, 58, 58);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.banner-content p {
+    color: rgb(58, 58, 58);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 0px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.banner-content button {
+    border-radius: 41px;
+    color: white;
+    border: none;
+    padding: 10px 24px 10px 24px;
+    background: rgb(224, 44, 109);
+}
+
+.banner-img {
+    background-image: url("/images/circledesign.svg");
+    background-repeat: no-repeat;
+    width: 475px;
+    height: 475px;
+}
+
+/* logos section related styles */
+.logos-section {
+    width: 70vw;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+
+/* card section related styles */
+.card-section {
+    max-width: 65vw;
+    margin: 40px auto;
+}
+
+.card-section > h3 {
+    text-align: center;
+    color: rgb(58, 58, 58);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    max-width: 330px;
+    padding: 17px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    text-align: left;
+}
+#see-more{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 40px;
+    text-decoration: none;
+    color: red;
+    padding: 10px 15px;
+}
